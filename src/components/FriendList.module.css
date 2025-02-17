@@ -1,0 +1,13 @@
+.isOnlinee {
+    color: green;
+}
+
+.isOffline {
+    color: red;
+}
+
+.friend_list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
