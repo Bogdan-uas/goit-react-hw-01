@@ -1,0 +1,28 @@
+.isDarker {
+    background-color: #dbdbdb;
+}
+
+.isWhite {
+    background-color: white;
+}
+
+.table {
+    background-color: black;
+    margin-bottom: 64px;
+}
+
+.table_title {
+    background-color: #3b3b3b;
+    color: white;
+    width: 187px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1.5;
+}
+
+.td {
+    text-align: center;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+}
