@@ -21,6 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 body {
   margin: 0;
   display: flex;
