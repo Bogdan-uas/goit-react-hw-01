@@ -5,6 +5,7 @@ import Profile from "./components/Profile.jsx"
 const App = () => {
   return (
     <>
+      <h2 className='task-title'>Task 1</h2>
       <Profile
         name={userData.username}
         tag={userData.tag}

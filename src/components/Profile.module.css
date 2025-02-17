@@ -1,0 +1,78 @@
+.card {
+    border: solid 1.5px black;
+    border-radius: 8px;
+    background-color: #ededed;
+    width: 299px;
+}
+
+.card-upper-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.card-image {
+    border-radius: 50%;
+    background-color: #292929;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 16px;
+}
+
+.username {
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.user-tag {
+    font-weight: 500;
+    color: #696969;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+}
+
+.user-location {
+    font-weight: 500;
+    color: #696969;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+}
+
+.stats-list {
+    display: flex;
+}
+
+.stats-item {
+    background-color: #ababab;
+    padding: 16px;
+    border: solid 1px #696969;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110%;
+    overflow: hidden;
+}
+
+.stats-item:nth-child(3) {
+    border-bottom-right-radius: 8px;
+}
+
+.stats-item:nth-child(1) {
+    border-bottom-left-radius: 8px;
+}
+
+.stats-title {
+    letter-spacing: -.02em;
+    line-height: 1.5;
+}
+
+.stats-info {
+    font-weight: 700;
+    letter-spacing: .001em;
+    line-height: 1.5;
+}
